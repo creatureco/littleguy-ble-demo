@@ -92,7 +92,8 @@ struct LookDirectionView: View {
             }
 
             Text("LOOK")
-                .font(.system(size: 10.0, weight: .medium))
+                .foregroundStyle(Color.white)
+                .font(.system(size: 12.0, weight: .medium))
                 .opacity(0.5)
         }
         .onChange(of: self.lookDirection) { oldValue, newValue in
